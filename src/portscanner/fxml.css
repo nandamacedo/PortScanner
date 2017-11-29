@@ -1,0 +1,41 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+.AnchorPane {
+    -fx-background-color: #1D1D1D;
+}
+
+.label{
+    -fx-text-fill: #ffffff;
+    -fx-font: 14px "Constantia";
+}
+
+.labelTitulo{
+    -fx-font: 39px "Constantia";
+    -fx-alignment: CENTER;
+    -fx-padding: 0 50 0 50;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+
+.textField{
+    -fx-text-fill: #1F271B;
+    -fx-font: 15px "Constantia";
+    -fx-background-radius: 0;
+}
+
+.button{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #1D1D1D;
+    -fx-font: 15px "Constantia";
+    -fx-border-color: #ffffff;
+    -fx-background-radius: 0;
+}
+
+.button:hover {
+    -fx-background-color: #383838;
+}
+
+.pane{
+    -fx-border-color: #ffffff;
+}
